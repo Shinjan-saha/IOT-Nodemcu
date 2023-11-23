@@ -14,6 +14,7 @@
 #define STAPSK "your-password"  
 #endif
 
+
 const char *ssid = STASSID;
 const char *password = STAPSK;
 
@@ -37,14 +38,33 @@ void handleRoot() {
     <title>ESP8266 Demo</title>\
     <style>\
       body { background-color: #cccccc; font-family: Arial, Helvetica, Sans-Serif; Color: #000088; }\
+      .button { \
+        display: inline-block; \
+        padding: 10px 15px; \
+        font-size: 16px; \
+        background-color: #4CAF50;  \
+        color: white;  \
+        border: none;  \
+        cursor: pointer;  \
+        margin: 5px; \
+        text-decoration: none; \
+      } \
+      .button:hover { \
+        background-color: #45a049;  \
+      } \
+      .container { \
+        text-align: center; \
+        margin-top: 50px; \
+      } \
     </style>\
   </head>\
   <body>\
-  <a href= '/turnOn'>ON</a>\
-  <a href = '/turnOff'>OFF</a>\
-    <h1>Hello from ESP8266!</h1>\
-    <p>Uptime: %02d:%02d:%02d</p>\
-    <img src=\"/test.svg\" />\
+    <div class='container'>\
+      <h2>Turning LED ON  or OFF</h2>\
+      <a href='/turnOn' class='button'>ON</a>\
+      <a href='/turnOff' class='button'>OFF</a>\
+      <p>Uptime: %02d:%02d:%02d</p>\
+    </div>\
   </body>\
 </html>",
               hr, min % 60, sec % 60);
