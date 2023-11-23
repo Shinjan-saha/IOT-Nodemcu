@@ -1,7 +1,7 @@
 # NodeMcu-Project
 
 
-<img src="./img/Obsatacle-robo.jpg" align="left" height="220" width="350">
+<img src="./img/img1.jpg" align="left" height="220" width="350">
 
 
 <br>
@@ -14,6 +14,7 @@
 <ul>
   <li>Jumper Wires</li>
   <li>Breadboard</li>
+ <li>Resistor(1ohm)</li>
   <li> led </li>
   <li>Nodemcu ESP 8266(Main Computing Part of the Circuit)</li>
  
@@ -30,3 +31,8 @@ Here we create an Website & programme the Nodemcu in such a way that we control 
 <br>Pin.no must be followed properly while constructing the circuit 
 [Code](https://github.com/Shinjan-saha/IOT-Nodemcu/blob/main/code.ino)
 <br>
+
+
+# Working
+
+<img src="./img/working-light.png" align="left" height="220" width="350">
