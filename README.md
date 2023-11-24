@@ -24,7 +24,7 @@
 
 # Working Principle
 
-Here we create an Website & programme the Nodemcu in such a way that we control an led with that website without requiring any other devices we can switch on & off the Led 
+Here we create an Website & programme the Nodemcu in such a way that we control an led with that website without requiring any other devices we can switch on & off the Led.Make sure that both Laptop/Mobile & the nodemcu must be connected with same network/wifi
 
 # Code 
 
